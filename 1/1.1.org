@@ -1,0 +1,24 @@
+
+* Historical Definition
+- algorism :: (before 1957) arithmetic using Arabic numerals /vs/
+              abacist. 
+
+* Algorithm E, /Euclidean Algorithm/
+Given two positive integers, /n/ and /m/ , their greatest common divisor can be found by:
+
+- E1 :: \( r = m mod n \)
+- E2 :: if r ==  0, terminate, return n
+- E3 :: m = n
+	n = r
+	Go to step 1
+
+* Upon Encountering an Algorithm				  :WiseWords:
+Take pencil and paper and work it out.  All other approaches to understanding an algorithm are generally unsuccessful.
+
+* Performance Characteristics
+- /e. g./, : number of steps necessary to compute an algorithm, in the case of /E/ average number of steps for completion can be given as:
+  \begin{equation} 
+  T_{n} = 12((\ln 2) \pi^{2})\ln n
+  \end{equation} 
+
+

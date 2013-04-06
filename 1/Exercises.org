@@ -1,0 +1,25 @@
+
+* 1.1
+
+** 1 [ 10 ] Rearange four variables, $(a, b, c, d)$ by sequence of replacements.
+\begin{equation} 
+1.) a \rightarrow z
+2.) d \rightarrow a
+3.) c \rightarrow d
+4.) b \rightarrow c
+5.) z \rightarrow a
+\end{equation} 
+
+** 2 [ 15 ] Prove /m/ is always greater than /n/, except possibly the first time.
+If /n/ is greater than /m/ then when (modulo n m) is taken, the result will be /n/ itself.  Since that will be set to r, and the value of m will become the first term, the two terms will flip.
+
+** 3 [ 20 ] Write Algorithm E more efficiently
+See [[file+emacs:../src/my_gcd.scm][my_gcd.scm]]
+
+** 4 [ 16 ] GCD of 2166 and 6099?
+#+BEGIN_SRC scheme
+scheme@(guile-user)> (my_gcd 2166 6099)
+$1 = 57
+#+END_SRC
+
+** TODO 5 [ 12 ] 
